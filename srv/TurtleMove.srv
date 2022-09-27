@@ -1,0 +1,4 @@
+string data
+int8 lin_vel
+---
+int8 result
