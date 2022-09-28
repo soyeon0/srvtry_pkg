@@ -25,7 +25,7 @@ def move_square(lin_vel):
         vel = Twist()
         vel.angular.x = 0
         vel.angular.y = 0
-        vel.angular.z = 90*2*math.pi/360*5
+        vel.angular.z = 90*2*math.pi/360*49/10
 
         pub.publish(vel)
         rate.sleep()
